@@ -14,34 +14,34 @@
   limitations under the License.
 -->
 <resources>
-    <string name="app_name">BLE Peripheral Simulator</string>
-    <string name="title_activity_peripherals">Peripherals</string>
-    <string name="title_activity_peripheral">Peripheral</string>
-    <string name="notify">Notify</string>
+    <string name="app_name">BLE外设模拟器</string>
+    <string name="title_activity_peripherals">外设列表</string>
+    <string name="title_activity_peripheral">外设</string>
+    <string name="notify">通知</string>
 
     <!-- Bluetooth -->
-    <string name="bluetoothNotSupported">BLE Peripheral Simulator closing: Bluetooth Not Supported</string>
-    <string name="bluetoothNotEnabled">BLE Peripheral Simulator closing: Bluetooth is Not Enabled</string>
-    <string name="bluetoothAdvertisingNotSupported">BLE Peripheral Simulator closing: BLE Advertising Not Supported</string>
+    <string name="bluetoothNotSupported">关闭：不支持蓝牙</string>
+    <string name="bluetoothNotEnabled">关闭：未启用蓝牙</string>
+    <string name="bluetoothAdvertisingNotSupported">关闭：不支持蓝牙广告</string>
 
     <!-- Adv -->
-    <string name="label_advertisingStatus">Advertising Status</string>
-    <string name="status_advertising">Advertising (Keep Screen On)</string>
-    <string name="status_notAdvertising">Not Advertising</string>
-    <string name="status_advDataTooLarge">Not Advertising. Advertisement is larger than 31 bytes.</string>
-    <string name="status_advFeatureUnsupported">Not Advertising. Advertising not supported.</string>
-    <string name="status_advInternalError">Not Advertising. Internal error occurred.</string>
-    <string name="status_advTooManyAdvertisers">Not Advertising. No advertising instance is available.</string>
+    <string name="label_advertisingStatus">广告状态</string>
+    <string name="status_advertising">正在广告（屏幕常亮）</string>
+    <string name="status_notAdvertising">未广告</string>
+    <string name="status_advDataTooLarge">未广告。广告数据超过31字节</string>
+    <string name="status_advFeatureUnsupported">未广告。不支持广告功能</string>
+    <string name="status_advInternalError">未广告。发生内部错误</string>
+    <string name="status_advTooManyAdvertisers">未广告。没有可用的广告实例</string>
 
     <!-- Connection -->
-    <string name="label_connectionStatus">Connection Status</string>
-    <string name="status_devicesConnected">Devices Connected:</string>
-    <string name="status_errorWhenConnecting">An error occurred when connecting to a device. Error Code</string>
+    <string name="label_connectionStatus">连接状态</string>
+    <string name="status_devicesConnected">已连接设备:</string>
+    <string name="status_errorWhenConnecting">连接设备时发生错误。错误码</string>
 
     <!-- Battery Service -->
     <string name="batteryService_name">Battery Service</string>
-    <string name="batteryLevelTooHigh">Batter Level shouldn\'t exceed 100</string>
-    <string name="batteryLevelIncorrect">Please enter a number between 0 and 100</string>
+    <string name="batteryLevelTooHigh">不能超过100</string>
+    <string name="batteryLevelIncorrect">请输入0到100之间的数字</string>
 
     <!-- Hear Rate Service -->
     <string name="label_bodySensorLocation">Body Sensor Location</string>
@@ -63,5 +63,5 @@
     <string name="status_noLeAdv">LE Advertising is not available. Please pair with a device to be
         discoverable.
     </string>
-    <string name="menu_disconnect_devices">Disconnect Devices</string>
+    <string name="menu_disconnect_devices">断开设备</string>
 </resources>
